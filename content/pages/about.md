@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "とよももについて"
 template: "page"
 socialImage: "/media/image-2.jpg"
 ---

@@ -12,7 +12,6 @@ test('getIcon', () => {
   expect(getIcon('linkedin')).toEqual(ICONS.LINKEDIN);
   expect(getIcon('instagram')).toEqual(ICONS.INSTAGRAM);
   expect(getIcon('line')).toEqual(ICONS.LINE);
-  expect(getIcon('facebook')).toEqual(ICONS.FACEBOOK);
   expect(getIcon('gitlab')).toEqual(ICONS.GITLAB);
   expect(getIcon('weibo')).toEqual(ICONS.WEIBO);
   expect(getIcon('codepen')).toEqual(ICONS.CODEPEN);

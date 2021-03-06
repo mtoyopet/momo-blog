@@ -12,39 +12,27 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: '記事一覧',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'とよももについて',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
+    // {
+    //   label: 'ご連絡ください',
+    //   path: '/pages/contacts'
+    // }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'とよもも',
+    photo: '/momo-pic.png',
+    bio: 'Momoko Toyota | 29歳でキャリアチェンジしてWEB開発の道へ。今はコードを書くプロダクトマネージャしてます',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
+      email: 'toyopet-momoko@hotmail.co.jp',
       twitter: '#',
       github: '#',
-      rss: '',
-      vkontakte: '',
       linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
-      medium: '',
     }
   }
 };
